@@ -195,7 +195,7 @@ export const workImages = [
     name: "Recipsy",
     category: "Web",
     github: "https://github.com/Arunangshu-Das/receipe_backend",
-    eye: "https://github.com/Arunangshu-Das/receipe_backend",
+    eye: "https://recipe.arunangshu.in/",
   },
   {
     id: 2,
