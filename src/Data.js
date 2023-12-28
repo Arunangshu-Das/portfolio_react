@@ -69,17 +69,17 @@ export const bios = [
     key: "Name",
     value: "Arunangshu Das",
   },
-  {
-    id: 2,
-    icon: <FaPhoneAlt />,
-    key: "Phone",
-    value: "9163506974",
-  },
+  // {
+  //   id: 2,
+  //   icon: <FaPhoneAlt />,
+  //   key: "Phone",
+  //   value: "9163506974",
+  // },
   {
     id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
-    value: "darunangshu2002@gmail.com",
+    value: "arunangshu@arunangshu.co.in",
   },
 ];
 
@@ -152,7 +152,6 @@ export const experiences = [
     position: "Associate Software Developer",
     company: "Mindfire Digital LLP",
   },
-  
 ];
 
 export const finishes = [
@@ -196,6 +195,14 @@ export const workImages = [
     category: "Web",
     github: "https://github.com/Arunangshu-Das/receipe_backend",
     eye: "https://recipe.arunangshu.in/",
+  },
+  {
+    id: 27,
+    img: "https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703781664/download_huirwq.png",
+    name: "Tik-Tak-Toc",
+    category: "Web",
+    github: "https://github.com/Arunangshu-Das/tic-tac-toe-react",
+    eye: "https://tik-tac-toe.arunangshu.in/",
   },
   {
     id: 2,
@@ -398,21 +405,21 @@ export const contacts = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    infoText: "35, Mission Para, Rahara, Kolkata- 700118",
+    infoText: "Mission Para, Rahara, Khardaha, Kolkata- 700118",
   },
-  {
-    id: 2,
-    icon: <FaPaperPlane />,
-    infoText: "darunangshu2002@gmail.com",
-  },
+  // {
+  //   id: 2,
+  //   icon: <FaPaperPlane />,
+  //   infoText: "darunangshu2002@gmail.com",
+  // },
   {
     id: 3,
     icon: <AiOutlineMail />,
-    infoText: "arunangshu@arunangshu.in",
+    infoText: "arunangshu@arunangshu.co.in",
   },
-  {
-    id: 4,
-    icon: <FaPhoneAlt />,
-    infoText: "+91 9163506974",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaPhoneAlt />,
+  //   infoText: "+91 9163506974",
+  // },
 ];

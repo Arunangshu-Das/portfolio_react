@@ -31,11 +31,11 @@
     .contact_left {
       display: flex;
       align-items: center;
-      margin-top: 1rem;
+      margin-top: 2rem;
       color: #fff;
       .icon {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         background: rgb(255, 87, 87);
         color: #fff;
         display: flex;
@@ -50,13 +50,14 @@
     }
     .social_icons {
       display: flex;
-      margin-top: 1rem;
+      margin-top: 2.6rem;
       a {
         margin-right: 1rem;
         cursor: pointer;
         color: #fff;
         &:hover {
           opacity: 0.8;
+          transition:0.3s;
           color: rgb(255, 87, 87);
         }
 
@@ -107,7 +108,7 @@
       padding: 0.65rem 1rem;
       border-radius: 10px;
       font-size: 0.85rem;
-      width: 4.2rem;
+      width: 6.2rem;
       text-transform: capitalize;
       color: #fff;
       cursor: pointer;

@@ -1,10 +1,77 @@
 import React from "react";
+import { useRef, useState } from "react";
 import "./Contact.scss";
 import { contacts } from "../../../Data";
 import { socialIcons } from "../../../Data";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    message: "",
+    ph: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
+
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_gjak82v",
+        "template_brztmkm",
+        {
+          from_name: form.firstname + " " + form.lastname,
+          to_name: "Arunangshu Das",
+          from_email: form.email,
+          to_email: "darunangshu2002@gmail.com",
+          from_ph: form.ph,
+          message: form.message,
+        },
+        "afm9_sjwrOsszeKpb"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible!");
+
+          setForm({
+            firstname: "",
+            lastname: "",
+            email: "",
+            message: "",
+            ph: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
+  };
+
+
+
+
+
   return (
     <div className="container" id="contact">
       <motion.div
@@ -23,7 +90,7 @@ const Contact = () => {
           className="contact_left_container"
         >
           <h3>Just Say Hi</h3>
-          <p className="contact_text">
+          {/* <p className="contact_text">
             Hey there, I am Arunangshu, a full-stack web developer and a
             full-stack data scientist residing in West Bengal, India. I have
             spent my past 2 years falling in love with the world of code. I have
@@ -31,7 +98,7 @@ const Contact = () => {
             as backend development and website designing and as well model
             training in machine learning and deep learning. I have 5 star in
             problem solving in Data Structures and Algorithms.
-          </p>
+          </p> */}
           {contacts.map((contact) => {
             return (
               <div className="contact_left" key={contact.id}>
@@ -56,26 +123,61 @@ const Contact = () => {
         >
           <h3>Get In Touch</h3>
           <form
-            action="mailto:darunangshu2002@gmail.com"
+            ref={formRef}
+            onSubmit={handleSubmit}
             method="post"
             enctype="text/plain"
           >
             <div className="row">
-              <input type="text" placeholder="First Name" autoComplete="off" />
-              <input type="text" placeholder="Last name" autoComplete="off" />
+              <input
+                type="text"
+                placeholder="First Name"
+                autoComplete="off"
+                value={form.firstname}
+                onChange={handleChange}
+                name="firstname"
+              />
+              <input
+                type="text"
+                placeholder="Last name"
+                autoComplete="off"
+                value={form.lastname}
+                onChange={handleChange}
+                name="lastname"
+              />
             </div>
             <div className="row">
-              <input type="text" placeholder="Phone" autoComplete="off" />
-              <input type="email" placeholder="Email" autoComplete="off" />
+              <input
+                type="text"
+                placeholder="Phone"
+                autoComplete="off"
+                name="ph"
+                value={form.ph}
+                onChange={handleChange}
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                autoComplete="off"
+                name="email"
+                value={form.email}
+                onChange={handleChange}
+              />
             </div>
             <div className="row">
-              <textarea placeholder="message"></textarea>
+              <textarea
+                rows={7}
+                name="message"
+                placeholder="message"
+                value={form.message}
+                onChange={handleChange}
+              ></textarea>
             </div>
             <motion.div
               whileHover={{ scale: 1.0 }}
               transition={{ duration: 0.3 }}
             >
-              <button className="btn">send</button>
+              <button className="btn">{loading ? "Sending..." : "Send"}</button>
             </motion.div>
           </form>
         </motion.div>

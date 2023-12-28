@@ -43,19 +43,17 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            Hey there, I am Arunangshu, an adept full-stack web developer and
-            accomplished full-stack data scientist hailing from West Bengal,
-            India. Over the course of the past two years, I have ardently
-            embraced the enchanting realm of programming. My passion has been
-            fervently directed towards both the artistry of frontend development
-            and the intricacies of backend development, coupled with the finesse
-            of website designing. Furthermore, I have extensively delved into
-            the realm of machine learning and deep learning, successfully honing
-            my skills in model training. It is worth noting that I possess an
-            impeccable track record, boasting a coveted five-star rating in the
-            realm of Data Structures and Algorithms. Additionally, I have
-            embarked upon exploring the revolutionary domain of blockchain
-            technology, further enriching my repertoire.
+            I'm Arunangshu, a skilled full-stack web developer and accomplished
+            full-stack data scientist hailing from West Bengal, India. For the
+            past two years, I've passionately delved into programming, focusing
+            on frontend artistry, backend intricacies in Node.js and Spring, and
+            the finesse of website design. Alongside, I've extensively explored
+            machine learning and deep learning, refining my skills in model
+            training. I take pride in my impeccable track record, boasting a
+            five-star rating in Data Structures and Algorithms. Additionally, my
+            journey includes an in-depth exploration of Data Structures and
+            Algorithms, leveraging Spring Boot's robust capabilities for backend
+            development, resulting in a comprehensive and enriched skill set.
           </p>
           {bios.map((bio) => {
             return (
@@ -68,14 +66,14 @@ const About = () => {
               </div>
             );
           })}
-          <motion.a
-            href="https://cv.arunangshu.in/"
+          {/* <motion.a
+            href="https://arunangshu.in/#contact"
             download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
-            Download Resume
-          </motion.a>
+            Contact Me
+          </motion.a> */}
         </motion.div>
       </div>
     </div>
