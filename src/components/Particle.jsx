@@ -23,71 +23,74 @@ const Particle = () => {
       options={{
         background: {
           color: {
-            value: "#000000",
+            value: { start: "#000", end: "#333" }, // Gradient background
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
+            onClick: { enable: true, mode: "push" },
+            onHover: { enable: true, mode: "bubble" },
             resize: true,
           },
           modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
+            push: { quantity: 4 },
+            bubble: { distance: 200, size: 40, duration: 2, opacity: 0.8 },
           },
         },
         particles: {
+          shape: {
+            type: [
+          "circle",
+          "triangle",
+          "polygon",
+          "star",
+          "edge", // New shape: edge
+          "square", // New shape: square
+          "rectangle", // New shape: rectangle
+          "heart", // New shape: heart
+          "image" // New shape: image
+        ], // Additional shapes
+          },
           color: {
-            value: "#FF5757",
+            value: ["#FF5757", "#A48348", "rgb(255, 87, 87)"], // Multiple colors
           },
           links: {
-            color: "#FF5757",
-            distance: 300,
+            color: "#A48348",
+            distance: 200, // Reduced distance between linked particles
             enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
+            opacity: 0.4,
+            blink: true, // Adding a blinking effect to links
+            consent: false,
+            warp: true, // Enable warp for continuous movement
           },
           move: {
-            directions: "none",
+            speed: { min: 1, max: 3 },
+            direction: "random",
+            random: true,
             enable: true,
             outModes: {
-              default: "bounce",
+              default: "out",
+              bottom: "out",
             },
-            random: false,
-            speed: 1,
-            straight: false,
+            rotate: {
+              value: 90,
+              direction: "clockwise",
+              random: true,
+            },
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000,
             },
             value: 80,
           },
           opacity: {
-            value: 0.1,
-          },
-          shape: {
-            type: "circle",
+            value: 0.15,
           },
           size: {
-            value: { min: 1, max: 1 },
+            value: { min: 2, max: 3 },
           },
         },
         detectRetina: true,

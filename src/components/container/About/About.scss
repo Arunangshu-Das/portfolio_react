@@ -9,17 +9,18 @@
     }
 
     .about_left {
-        background: red;
+        background: #84652e;
         max-width: 350px;
         height: 350px;
         justify-self: center;
-        border-radius: 5px;
-        box-shadow: 5px 5px 90px rgb(246, 33, 125);
+        border-radius: 5%;
+        box-shadow: 5px 5px 120px #A48348;
 
         img {
             object-fit: cover;
             width: 100%;
             height: 100%;
+            border-radius: 5%;
         }
         
     }

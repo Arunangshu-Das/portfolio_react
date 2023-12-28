@@ -1,5 +1,4 @@
 import React from 'react'
-import portfolio from "../../../assets/portfolio.jpg"
 import "./Home.scss"
 import { motion } from 'framer-motion'
 
@@ -31,7 +30,7 @@ const Home = () => {
     >
       <div className="profile">
         <img
-          src="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703174710/WhatsApp_Image_2023-12-21_at_21.34.33_c918fb25_efhxqa.jpg"
+          src="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703783410/Brown_Minimalist_Elegant_Professional_Personal_Business_Card_8_wwndmj.png"
           alt="portfolio"
         />
       </div>

@@ -32,7 +32,6 @@ import {
 } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import portfolio from "./assets/portfolio.jpg";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -157,17 +156,17 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: "2+",
+    number: "3+",
     itemName: "Years Of Experience",
   },
   {
     id: 2,
-    number: "39+",
+    number: "49+",
     itemName: "Designed Items",
   },
   {
     id: 3,
-    number: "50+",
+    number: "60+",
     itemName: "Projects Done",
   },
 ];

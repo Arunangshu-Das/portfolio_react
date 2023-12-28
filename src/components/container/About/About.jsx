@@ -3,7 +3,6 @@ import "./About.scss";
 
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
-import portfolio from "../../../assets/portfolio.jpg"
 const About = () => {
 
 
@@ -27,7 +26,7 @@ const About = () => {
         >
           <motion.img
             src="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703174710/WhatsApp_Image_2023-12-21_at_21.34.33_c918fb25_efhxqa.jpg"
-            whileHover={{ y: -48, x: -55 }}
+            whileHover={{ y: -18, x: -25 }}
             transition={{ duration: 0.3 }}
           />
         </motion.div>
@@ -43,8 +42,8 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            I'm Arunangshu, a skilled full-stack web developer and accomplished
-            full-stack data scientist hailing from West Bengal, India. For the
+            Hi, I'm Arunangshu Das, a skilled full-stack web developer and accomplished
+            full-stack data scientist hailing from India. For the
             past two years, I've passionately delved into programming, focusing
             on frontend artistry, backend intricacies in Node.js and Spring, and
             the finesse of website design. Alongside, I've extensively explored

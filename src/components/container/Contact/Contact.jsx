@@ -68,10 +68,6 @@ const Contact = () => {
       );
   };
 
-
-
-
-
   return (
     <div className="container" id="contact">
       <motion.div
@@ -89,7 +85,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="contact_left_container"
         >
-          <h3>Just Say Hi</h3>
+          <center>
+            <h3>Just Say Hi</h3>
+          </center>
           {/* <p className="contact_text">
             Hey there, I am Arunangshu, a full-stack web developer and a
             full-stack data scientist residing in West Bengal, India. I have
@@ -121,7 +119,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="contact_right"
         >
-          <h3>Get In Touch</h3>
+          <center>
+            <h3>Get In Touch</h3>
+          </center>
           <form
             ref={formRef}
             onSubmit={handleSubmit}

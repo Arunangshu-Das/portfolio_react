@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import "./App.css"
 import About from './components/container/About/About'
 import Contact from './components/container/Contact/Contact'
@@ -10,11 +10,20 @@ import Navbar from './components/Navbar/Navbar'
 import Particle from './components/Particle';
 
 const App = () => {
-  const handleRightClick = (event) => {
-    event.preventDefault(); // Prevent the default right-click behavior
-  };
+  useEffect(() => {
+    const handleContextMenu = (event) => {
+      event.preventDefault();
+      // Additional logic if needed
+    };
+
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
+  }, []);
   return (
-    <div onContextMenu={handleRightClick}>
+    <div>
       <Particle />
       <Navbar />
       <Home />
