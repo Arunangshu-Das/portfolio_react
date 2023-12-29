@@ -31,7 +31,7 @@ const Home = () => {
       <div className="profile">
         <img
           src="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703783410/Brown_Minimalist_Elegant_Professional_Personal_Business_Card_8_wwndmj.png"
-          alt="portfolio"
+          alt="Arunangshu Das portfolio"
         />
       </div>
       <div className="profile_text">

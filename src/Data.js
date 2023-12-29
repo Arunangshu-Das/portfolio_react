@@ -17,6 +17,7 @@ import {
   FaLinkedin,
   FaEthereum,
   FaAws,
+  FaYoutube,
 } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
@@ -27,8 +28,9 @@ import {
   SiBlockchaindotcom,
   SiHackerrank,
   SiFlask,
-  SiSpringboot,
+  SiSpring,
   SiHibernate,
+  SiGooglecloud,
 } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
@@ -56,8 +58,8 @@ export const socialIcons = [
   { id: 6, icon: <SiLeetcode />, url: "https://leetcode.com/Arunangshu_Das/" },
   {
     id: 7,
-    icon: <SiHackerrank />,
-    url: "https://www.hackerrank.com/darunangshu2002",
+    icon: <FaYoutube />,
+    url: "https://www.youtube.com/@codingwitharunangshu",
   },
 ];
 
@@ -83,17 +85,18 @@ export const bios = [
 ];
 
 export const icons = [
+  <FaPython />,
   <SiTensorflow />,
   <SiPytorch />,
-  <FaPython />,
+  <SiFlask />,
   <FaJava />,
   <SiHibernate />,
-  <FaCss3 />,
+  <SiSpring />,
+  // <FaCss3 />,
+  <SiGooglecloud />,
   <FaSass />,
   <FaReact />,
   <FaNodeJs />,
-  <SiFlask />,
-  <SiSpringboot />,
   <FaAws />,
 ];
 

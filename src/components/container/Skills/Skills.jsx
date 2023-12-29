@@ -14,7 +14,10 @@ const Skills = () => {
         className="title"
       >
         <span>What I Expert?</span>
-        <h1>Skills And Experience</h1>
+        <h1>
+          <span className="first">S</span>kills <span className="first">A</span>
+          nd <span className="first">E</span>xperience
+        </h1>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}

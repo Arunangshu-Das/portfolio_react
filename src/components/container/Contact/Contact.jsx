@@ -76,7 +76,10 @@ const Contact = () => {
         className="title"
       >
         <span>get in touch</span>
-        <h1>Contact Me</h1>
+        <h1>
+          <span className="first">C</span>ontact{" "}
+          <span className="first">M</span>e
+        </h1>
       </motion.div>
       <div className="contact_form">
         <motion.div
@@ -86,7 +89,9 @@ const Contact = () => {
           className="contact_left_container"
         >
           <center>
-            <h3>Just Say Hi</h3>
+            <h3>
+              Just Say <span>Hi</span>
+            </h3>
           </center>
           {/* <p className="contact_text">
             Hey there, I am Arunangshu, a full-stack web developer and a
@@ -136,6 +141,7 @@ const Contact = () => {
                 value={form.firstname}
                 onChange={handleChange}
                 name="firstname"
+                required
               />
               <input
                 type="text"
@@ -144,6 +150,7 @@ const Contact = () => {
                 value={form.lastname}
                 onChange={handleChange}
                 name="lastname"
+                required
               />
             </div>
             <div className="row">
@@ -162,6 +169,7 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
+                required
               />
             </div>
             <div className="row">
@@ -171,6 +179,7 @@ const Contact = () => {
                 placeholder="message"
                 value={form.message}
                 onChange={handleChange}
+                required
               ></textarea>
             </div>
             <motion.div

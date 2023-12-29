@@ -14,7 +14,9 @@ const About = () => {
         className="title"
       >
         <span>Who Am I?</span>
-        <h1>About Me</h1>
+        <h1>
+          <span className="first">A</span>bout <span className="first">M</span>e
+        </h1>
       </motion.div>
 
       <div className="about_container">
@@ -42,8 +44,8 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            Hi, I'm Arunangshu Das, a skilled full-stack web developer and accomplished
-            full-stack data scientist hailing from India. For the
+            Hi, I'm Arunangshu Das, a skilled full-stack web developer and
+            accomplished full-stack data scientist hailing from India. For the
             past two years, I've passionately delved into programming, focusing
             on frontend artistry, backend intricacies in Node.js and Spring, and
             the finesse of website design. Alongside, I've extensively explored

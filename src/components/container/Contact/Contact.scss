@@ -22,6 +22,9 @@
       font-size: 1.5rem;
       margin-bottom: 1rem;
       color: #fff;
+      span{
+        color: #A48348;
+      }
     }
 
     .contact_text {
@@ -59,7 +62,7 @@
         &:hover {
           opacity: 0.8;
           transition:0.3s;
-          color: rgb(255, 87, 87);
+          color: #A48348;
         }
 
         svg {

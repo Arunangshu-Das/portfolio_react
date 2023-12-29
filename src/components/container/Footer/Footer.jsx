@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <div className="copyright">
         <p>
-          Copyright&copy; 2023 All rights reserved. Made by{" "}
+          Copyright&copy; 2024 All rights reserved. Made by{" "}
           <a
             href="https://www.arunangshu.in"
             style={{ "text-decoration": "none" }}
