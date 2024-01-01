@@ -59,7 +59,7 @@ export const socialIcons = [
   {
     id: 7,
     icon: <FaYoutube />,
-    url: "https://www.youtube.com/@codingwitharunangshu",
+    url: "https://www.youtube.com/@codewitharunangshu",
   },
 ];
 
