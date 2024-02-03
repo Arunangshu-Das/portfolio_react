@@ -67,14 +67,13 @@ const About = () => {
               </div>
             );
           })}
-          {/* <motion.a
-            href="https://arunangshu.in/#contact"
-            download=""
+          <motion.a
+            href="https://blog.arunangshu.in/"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
-            Contact Me
-          </motion.a> */}
+            Read blogs
+          </motion.a>
         </motion.div>
       </div>
     </div>

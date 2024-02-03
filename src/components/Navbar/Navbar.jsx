@@ -60,7 +60,7 @@ const Navbar = () => {
           })}
           <li>
             <a
-              href="https://www.arunangshu.co.in"
+              href="https://blog.arunangshu.in/"
               target="_blank"
               rel="noreferrer"
             >
@@ -97,7 +97,7 @@ const Navbar = () => {
         >
           <li>
             <a
-              href="https://www.arunangshu.co.in"
+              href="https://blog.arunangshu.in/"
               target="_blank"
               rel="noreferrer"
             >
