@@ -7,6 +7,7 @@ import Home from "./components/container/Home/Home";
 import Portfolio from "./components/container/Portfolio/Portfolio";
 import Skills from "./components/container/Skills/Skills";
 import Navbar from "./components/Navbar/Navbar";
+import NewsLetter from "./components/container/NewsLetter/NewsLetter";
 import Particle from "./components/Particle";
 import { Helmet } from "react-helmet";
 
@@ -113,6 +114,7 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Contact />
+      <NewsLetter/>
       <Footer />
     </div>
   );

@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./About.scss";
 
-import { motion } from 'framer-motion';
-import { bios } from '../../../Data';
+import { motion } from "framer-motion";
+import { bios } from "../../../Data";
 const About = () => {
-
-
   return (
     <div className="container " id="about">
       <motion.div
@@ -44,17 +42,14 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            Hi, I'm Arunangshu Das, a skilled full-stack web developer and
-            accomplished full-stack data scientist hailing from India. For the
-            past two years, I've passionately delved into programming, focusing
-            on frontend artistry, backend intricacies in Node.js and Spring, and
-            the finesse of website design. Alongside, I've extensively explored
-            machine learning and deep learning, refining my skills in model
-            training. I take pride in my impeccable track record, boasting a
-            five-star rating in Data Structures and Algorithms. Additionally, my
-            journey includes an in-depth exploration of Data Structures and
-            Algorithms, leveraging Spring Boot's robust capabilities for backend
-            development, resulting in a comprehensive and enriched skill set.
+            Hi, I'm Arunangshu Das, an expert in data science, ML, image
+            processing, NLP, deep learning, and generative AI, proficient in
+            Java, Hibernate, and Spring Boot. With two years of experience, I
+            excel in frontend and backend development, emphasizing Node.js and
+            Spring frameworks. My track record boasts a five-star rating in Data
+            Structures and Algorithms, showcasing my comprehensive skill set.
+            Passionate about solving complex problems, I leverage advanced
+            technologies to deliver efficient and scalable solutions.
           </p>
           {bios.map((bio) => {
             return (
@@ -78,6 +73,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

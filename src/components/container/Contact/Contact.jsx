@@ -34,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_gjak82v",
-        "template_brztmkm",
+        "service_zy4ag6f",
+        "template_fpqangj",
         {
           from_name: form.firstname + " " + form.lastname,
           to_name: "Arunangshu Das",
@@ -44,7 +44,7 @@ const Contact = () => {
           from_ph: form.ph,
           message: form.message,
         },
-        "afm9_sjwrOsszeKpb"
+        "e-eMllDxLHOQ5cjwg"
       )
       .then(
         () => {
@@ -161,6 +161,7 @@ const Contact = () => {
                 name="ph"
                 value={form.ph}
                 onChange={handleChange}
+                required
               />
               <input
                 type="email"
