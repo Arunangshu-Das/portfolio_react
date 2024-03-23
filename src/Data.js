@@ -35,7 +35,7 @@ import {
 import { BsMedium } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
-export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
+export const navLinks = ["home", "about", "skills"];
 
 export const socialIcons = [
   {
@@ -55,9 +55,8 @@ export const socialIcons = [
   },
   { id: 4, icon: <FaTwitter />, url: "https://twitter.com/real_arunangshu" },
   { id: 5, icon: <FaGithub />, url: "https://github.com/Arunangshu-Das" },
-  { id: 6, icon: <SiLeetcode />, url: "https://leetcode.com/Arunangshu_Das/" },
   {
-    id: 7,
+    id: 6,
     icon: <FaYoutube />,
     url: "https://www.youtube.com/@codewitharunangshu",
   },

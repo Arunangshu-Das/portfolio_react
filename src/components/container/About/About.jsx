@@ -63,7 +63,7 @@ const About = () => {
             );
           })}
           <motion.a
-            href="https://blog.arunangshu.in/"
+            href="https://blog.arunangshudas.com/"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >

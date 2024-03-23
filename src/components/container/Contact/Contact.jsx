@@ -66,6 +66,28 @@ const Contact = () => {
           alert("Ahh, something went wrong. Please try again.");
         }
       );
+
+      var data = {
+        name: form.firstname + " " + form.lastname,
+        email: form.email,
+        option: "1",
+      };
+
+      var xhr = new XMLHttpRequest();
+
+      // Configure the POST request
+      xhr.open(
+        "POST",
+        "https://drql7f87o7.execute-api.us-east-1.amazonaws.com/prod/submit-form",
+        true
+      );
+      xhr.setRequestHeader("Content-Type", "application/json");
+
+      // Convert data to JSON format
+      var jsonData = JSON.stringify(data);
+
+      // Send the request
+      xhr.send(jsonData);
   };
 
   return (

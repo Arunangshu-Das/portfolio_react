@@ -40,7 +40,7 @@ const NewsLetter = () => {
     // Configure the POST request
     xhr.open(
       "POST",
-      "https://backendblogarunangshu.arunangshu.in/submit-form",
+      "https://drql7f87o7.execute-api.us-east-1.amazonaws.com/prod/submit-form",
       true
     );
     xhr.setRequestHeader("Content-Type", "application/json");

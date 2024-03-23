@@ -45,7 +45,7 @@ const App = () => {
       "@type": "Person",
       name: "Arunangshu Das",
       jobTitle: "Software Developer",
-      url: "https://arunangshu.in/",
+      url: "https://arunangshudas.com/",
       // Add more properties as needed
     };
 
@@ -53,7 +53,6 @@ const App = () => {
     script.type = "application/ld+json";
     script.innerHTML = JSON.stringify(personSchema);
     document.head.appendChild(script);
-
   }, []);
 
   return (
@@ -61,7 +60,7 @@ const App = () => {
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
-        <link rel="canonical" href="https://arunangshu.in/index.html" />
+        <link rel="canonical" href="https://arunangshudas.com/index.html" />
         <meta
           name="keywords"
           content="Web Development, Problem Solver, Machine Learning Engineer, Blockchain Expert, Spring Boot, Experienced Developer, 5-star Problem Solver, Front-end Development, Back-end Development, TensorFlow, Blockchain Technology, DApp Development, Java Development, Software Engineer,React Developer, Web Development Expert, Machine Learning Solutions, Blockchain Technology Specialist, Spring Boot Development, Dynamic Website Creation, Robust Problem-solving Skills, Cutting-edge Technology Solutions, User-friendly Website Design, Complex Machine Learning Algorithms, Blockchain Implementation Services, Innovative Technological Solutions, computer engineer, computer scientist"
@@ -75,7 +74,7 @@ const App = () => {
           property="og:image"
           content="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703174710/WhatsApp_Image_2023-12-21_at_21.34.33_c918fb25_efhxqa.jpg"
         />
-        <meta property="og:url" content="https://arunangshu.in/" />
+        <meta property="og:url" content="https://arunangshudas.com/" />
         <meta property="og:type" content="website" />
 
         <meta property="og:title" content="Arunangshu | LinkedIn Profile" />
@@ -114,7 +113,7 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Contact />
-      <NewsLetter/>
+      <NewsLetter />
       <Footer />
     </div>
   );

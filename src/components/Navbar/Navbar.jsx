@@ -60,12 +60,32 @@ const Navbar = () => {
           })}
           <li>
             <a
-              href="https://blog.arunangshu.in/"
+              href="https://blog.arunangshudas.com/"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               Blog{" "}
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://gallery.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Gallery{" "}
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://contact.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Contact{" "}
             </a>
           </li>
         </ul>
@@ -97,7 +117,7 @@ const Navbar = () => {
         >
           <li>
             <a
-              href="https://blog.arunangshu.in/"
+              href="https://blog.arunangshudas.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -121,6 +141,27 @@ const Navbar = () => {
               </li>
             );
           })}
+
+          <li>
+            <a
+              href="https://gallery.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Gallery{" "}
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://contact.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Contact{" "}
+            </a>
+          </li>
         </motion.div>
       </div>
     </motion.div>
