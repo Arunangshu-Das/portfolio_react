@@ -76,11 +76,7 @@ const Contact = () => {
       var xhr = new XMLHttpRequest();
 
       // Configure the POST request
-      xhr.open(
-        "POST",
-        "https://drql7f87o7.execute-api.us-east-1.amazonaws.com/prod/submit-form",
-        true
-      );
+      xhr.open("POST", "https://newsletter.arunangshudas.com/submit", true);
       xhr.setRequestHeader("Content-Type", "application/json");
 
       // Convert data to JSON format

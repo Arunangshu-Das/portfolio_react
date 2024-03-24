@@ -34,6 +34,7 @@ import {
 } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { CiLink } from "react-icons/ci";
 
 export const navLinks = ["home", "about", "skills"];
 
@@ -57,6 +58,11 @@ export const socialIcons = [
   { id: 5, icon: <FaGithub />, url: "https://github.com/Arunangshu-Das" },
   {
     id: 6,
+    icon: <CiLink />,
+    url: "https://topmate.io/arunangshudas",
+  },
+  {
+    id: 7,
     icon: <FaYoutube />,
     url: "https://www.youtube.com/@codewitharunangshu",
   },
