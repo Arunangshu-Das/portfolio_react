@@ -42,14 +42,18 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            Hi, I'm Arunangshu Das, an expert in data science, ML, image
-            processing, NLP, deep learning, and generative AI, proficient in
-            Java, Hibernate, and Spring Boot. With two years of experience, I
-            excel in frontend and backend development, emphasizing Node.js and
-            Spring frameworks. My track record boasts a five-star rating in Data
-            Structures and Algorithms, showcasing my comprehensive skill set.
-            Passionate about solving complex problems, I leverage advanced
-            technologies to deliver efficient and scalable solutions.
+            Hi, I am Arunangshu Das, an accomplished expert in machine learning
+            (ML), natural language processing (NLP), image processing, deep
+            learning, statistics, and artificial intelligence (AI). With a
+            strong foundation in research and coding, I am dedicated to
+            advancing these fields through innovative solutions and cutting-edge
+            methodologies. My expertise lies in developing sophisticated
+            algorithms, leveraging advanced statistical techniques, and
+            harnessing the power of AI to tackle complex challenges. Whether
+            it's designing robust ML models, refining NLP algorithms, optimizing
+            image processing pipelines, or delving into deep learning
+            architectures, I am driven by a passion for pushing the boundaries
+            of what's possible in AI-driven technologies.
           </p>
           {bios.map((bio) => {
             return (
