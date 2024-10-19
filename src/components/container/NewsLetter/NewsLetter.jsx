@@ -78,7 +78,7 @@ const NewsLetter = () => {
         <span>get connected</span>
         <h1>
           <span className="first">S</span>ubscribe{" "}
-          <span className="first">T</span>o <span className="first">O</span>ur{" "}
+          <span className="first">T</span>o <span className="first">M</span>y{" "}
           <span className="first">N</span>
           ewsLetter
         </h1>

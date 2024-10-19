@@ -70,16 +70,6 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://gallery.arunangshudas.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Gallery{" "}
-            </a>
-          </li>
-          <li>
-            <a
               href="https://contact.arunangshudas.com/"
               target="_blank"
               rel="noreferrer"
@@ -142,16 +132,6 @@ const Navbar = () => {
             );
           })}
 
-          <li>
-            <a
-              href="https://gallery.arunangshudas.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Gallery{" "}
-            </a>
-          </li>
           <li>
             <a
               href="https://contact.arunangshudas.com/"
