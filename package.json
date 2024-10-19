@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "0.1.0",
-  "homepage": "https://arunangshu.in/",
+  "homepage": "https://arunangshudas.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm install --global node-gyp && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
