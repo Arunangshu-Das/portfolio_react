@@ -156,7 +156,7 @@ export const experiences = [
   {
     id: 1,
     year: "2024",
-    position: "Associate Software Developer",
+    position: "Software Developer",
     company: "Mindfire Digital LLP",
   },
 ];
