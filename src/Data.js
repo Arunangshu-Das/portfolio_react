@@ -36,7 +36,7 @@ import { BsMedium } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { CiLink } from "react-icons/ci";
 
-export const navLinks = ["home", "about", "skills"];
+export const navLinks = ["home", "about"];
 
 export const socialIcons = [
   {
@@ -61,11 +61,11 @@ export const socialIcons = [
     icon: <CiLink />,
     url: "https://topmate.io/arunangshudas",
   },
-  {
-    id: 7,
-    icon: <FaYoutube />,
-    url: "https://www.youtube.com/@codewitharunangshu",
-  },
+  // {
+  //   id: 7,
+  //   icon: <FaYoutube />,
+  //   url: "https://www.youtube.com/@codewitharunangshu",
+  // },
 ];
 
 export const bios = [
@@ -116,19 +116,13 @@ export const internship = [
     id: 2,
     year: "2022",
     position: "CDAC",
-    company: "Bootstrap, Node JS, React JS, Express JS, Authintication",
+    company: "Node JS, React JS, Next JS, Authintication",
   },
   {
     id: 3,
     year: "2022",
     position: "KIIT",
     company: "Java",
-  },
-  {
-    id: 4,
-    year: "2021",
-    position: "Comtel",
-    company: "Banking System Backend",
   },
 ];
 export const education = [

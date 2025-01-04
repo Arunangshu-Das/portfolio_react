@@ -113,7 +113,7 @@ const App = () => {
       <Skills />
       {/* <Portfolio /> */}
       <Contact />
-      <NewsLetter />
+      {/* <NewsLetter /> */}
       <Footer />
     </div>
   );

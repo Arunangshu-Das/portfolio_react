@@ -87,6 +87,16 @@ const Navbar = () => {
               Contact{" "}
             </a>
           </li>
+          <li>
+            <a
+              href="https://newsletter.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Newsletter{" "}
+            </a>
+          </li>
         </ul>
         <div className="social_icons">
           {socialIcons.map((socialIcon) => (
@@ -132,6 +142,16 @@ const Navbar = () => {
             >
               {" "}
               Article{" "}
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://newsletter.arunangshudas.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Newsletter{" "}
             </a>
           </li>
           <HiX onClick={() => setToggle(false)} />
