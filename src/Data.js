@@ -424,3 +424,5 @@ export const contacts = [
   //   infoText: "+91 9163506974",
   // },
 ];
+
+export const measurementID = "G-L9DLC6WR4J";

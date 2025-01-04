@@ -10,9 +10,14 @@ import Navbar from "./components/Navbar/Navbar";
 import NewsLetter from "./components/container/NewsLetter/NewsLetter";
 import Particle from "./components/Particle";
 import { Helmet } from "react-helmet";
+import { initGA, logPageView } from "./analytics";
+import { measurementID } from "./Data";
 
 const App = () => {
   useEffect(() => {
+    initGA(measurementID); // Replace with your Measurement ID
+    logPageView();
+
     const handleContextMenu = (event) => {
       event.preventDefault();
       // Additional logic if needed
