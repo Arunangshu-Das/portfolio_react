@@ -41,7 +41,7 @@ const Home = () => {
         <span className="text">
           <span> Trust </span> me,
           <br /> <span>I'm a software engineer</span> <br /> I turn coffee into
-          code <br /> & <br />
+          code <br /> <span> & </span> <br />
           bugs into features.
         </span>
         <motion.a
