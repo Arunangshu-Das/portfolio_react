@@ -73,7 +73,7 @@ export const bios = [
     id: 1,
     icon: <FaUser />,
     key: "Name",
-    value: "Arunangshu Das",
+    value: "Arunangshu",
   },
   // {
   //   id: 2,

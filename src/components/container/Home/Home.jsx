@@ -1,7 +1,6 @@
-import React from 'react'
-import "./Home.scss"
-import { motion } from 'framer-motion'
-
+import React from "react";
+import "./Home.scss";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const moveVariants = {
@@ -10,12 +9,10 @@ const Home = () => {
       transition: {
         yoyo: Infinity,
         duration: 2,
-        delay: 1
-      }
-
-    }
-  }
-
+        delay: 1,
+      },
+    },
+  };
 
   return (
     <motion.div
@@ -42,9 +39,10 @@ const Home = () => {
           Web Developer || Machine Learning Engineer || Software Developer
         </span>
         <span className="text">
-          Passionate
-          <br /> to craft innovative <br /> web products, Machine Learning,
-          Software Products.
+          <span> Trust </span> me,
+          <br /> <span>I'm a software engineer</span> <br /> I turn coffee into
+          code <br /> & <br />
+          bugs into features.
         </span>
         <motion.a
           href="#contact"
@@ -60,6 +58,6 @@ const Home = () => {
       </div>
     </motion.div>
   );
-}
+};
 
-export default Home
+export default Home;

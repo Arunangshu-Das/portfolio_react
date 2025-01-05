@@ -42,18 +42,14 @@ const About = () => {
               "text-align": "justify",
             }}
           >
-            Hi, I am Arunangshu Das, an accomplished expert in machine learning
-            (ML), natural language processing (NLP), image processing, deep
-            learning, statistics, and artificial intelligence (AI). With a
-            strong foundation in research and coding, I am dedicated to
-            advancing these fields through innovative solutions and cutting-edge
-            methodologies. My expertise lies in developing sophisticated
-            algorithms, leveraging advanced statistical techniques, and
-            harnessing the power of AI to tackle complex challenges. Whether
-            it's designing robust ML models, refining NLP algorithms, optimizing
-            image processing pipelines, or delving into deep learning
-            architectures, I am driven by a passion for pushing the boundaries
-            of what's possible in AI-driven technologies.
+            Arunangshu Das is a skilled software developer who works on building
+            websites and apps using tools like Spring Boot. He loves helping
+            other developers by writing simple guides and tutorials on his blog,
+            explaining things like making websites faster and creating small,
+            connected apps. He also shares his work on GitHub and talks with
+            other developers on Medium to learn and grow together.
+            <br />
+            <span>~ChatGPT</span>
           </p>
           {bios.map((bio) => {
             return (
@@ -71,7 +67,7 @@ const About = () => {
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
-            Read blogs
+            Read blogs →
           </motion.a>
         </motion.div>
       </div>
