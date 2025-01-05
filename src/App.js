@@ -63,8 +63,8 @@ const App = () => {
   return (
     <div>
       <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
+        <title>Arunangshu Das</title>
+        <meta name="description" content="Portfolio of Arunangshu Das" />
         <link rel="canonical" href="https://arunangshudas.com/index.html" />
         <meta
           name="keywords"
