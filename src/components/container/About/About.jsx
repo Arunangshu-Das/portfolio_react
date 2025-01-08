@@ -43,11 +43,12 @@ const About = () => {
             }}
           >
             Arunangshu Das is a skilled software developer who works on building
-            websites and apps using tools like Spring Boot. He loves helping
-            other developers by writing simple guides and tutorials on his blog,
-            explaining things like making websites faster and creating small,
-            connected apps. He also shares his work on GitHub and talks with
-            other developers on Medium to learn and grow together.
+            websites and apps. He has a passion for innovative ideas in the tech
+            industry. He loves helping other developers by writing simple guides
+            and tutorials on his blog, explaining things like making websites
+            faster and creating small, connected apps. He also shares his work
+            on GitHub and talks with other developers on Medium to learn and
+            grow together.
             <br />
             <span>~ChatGPT</span>
           </p>
