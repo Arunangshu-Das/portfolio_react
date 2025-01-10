@@ -406,7 +406,7 @@ export const contacts = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    infoText: "Mission Para, Rahara, Khardaha, Kolkata- 700118",
+    infoText: "Kolkata, West Bengal, India",
   },
   // {
   //   id: 2,
