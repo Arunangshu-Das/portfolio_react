@@ -85,7 +85,7 @@ export const bios = [
     id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
-    value: "arunangshu@arunangshu.co.in",
+    value: "arunangshu@arunangshudas.com",
   },
 ];
 
@@ -416,7 +416,7 @@ export const contacts = [
   {
     id: 3,
     icon: <AiOutlineMail />,
-    infoText: "arunangshu@arunangshu.co.in",
+    infoText: "arunangshu@arunangshudas.com",
   },
   // {
   //   id: 4,
