@@ -17,7 +17,7 @@ const Footer = () => {
         <p>
           Copyright&copy; 2024 All rights reserved. Made by{" "}
           <a
-            href="https://www.arunangshu.in"
+            href="https://www.arunangshudas.com"
             style={{ "text-decoration": "none" }}
           >
             <span>Arunangshu Das </span>{" "}
