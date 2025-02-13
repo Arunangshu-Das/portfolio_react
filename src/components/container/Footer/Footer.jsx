@@ -84,6 +84,14 @@ const Footer = () => {
           {" "}
           Code of Conduct{" "}
         </a>
+        <a
+          href="https://blog.arunangshudas.com/disclaimer/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Disclaimer{" "}
+        </a>
       </div>
     </motion.div>
   );
