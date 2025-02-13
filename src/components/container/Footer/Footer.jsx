@@ -35,6 +35,56 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      <div>
+        <a
+          href="https://blog.arunangshudas.com/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Blog{" "}
+        </a>
+        <a
+          href="https://blog.arunangshudas.com/about/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          About{" "}
+        </a>
+        <a
+          href="https://contact.arunangshudas.com/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Contact{" "}
+        </a>
+        <a
+          href="https://blog.arunangshudas.com/privacy-policy-2/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Privacy Policy{" "}
+        </a>
+        <a
+          href="https://blog.arunangshudas.com/terms-of-service/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Terms of Service{" "}
+        </a>
+        <a
+          href="https://blog.arunangshudas.com/code-of-conduct/"
+          target="_blank"
+          style={{ marginLeft: "10px", color: "white" }}
+        >
+          {" "}
+          Code of Conduct{" "}
+        </a>
+      </div>
     </motion.div>
   );
 };
