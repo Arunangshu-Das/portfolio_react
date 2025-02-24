@@ -35,7 +35,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div>
+      {/* <div>
         <a
           href="https://blog.arunangshudas.com/"
           target="_blank"
@@ -92,7 +92,7 @@ const Footer = () => {
           {" "}
           Disclaimer{" "}
         </a>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

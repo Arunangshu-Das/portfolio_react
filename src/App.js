@@ -111,7 +111,7 @@ const App = () => {
           content="https://res.cloudinary.com/dpmu1oy8z/image/upload/v1703174710/WhatsApp_Image_2023-12-21_at_21.34.33_c918fb25_efhxqa.jpg"
         />
       </Helmet>
-      {/* <Particle /> */}
+      <Particle />
       <Navbar />
       <Home />
       <About />
