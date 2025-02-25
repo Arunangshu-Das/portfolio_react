@@ -64,16 +64,16 @@ const App = () => {
     <div>
       <Helmet>
         <title>Arunangshu Das</title>
-        <meta name="description" content="Portfolio of Arunangshu Das" />
+        <meta name="description" content="Arunangshu Das" />
         <link rel="canonical" href="https://arunangshudas.com/index.html" />
         <meta
           name="keywords"
-          content="Web Development, Problem Solver, Machine Learning Engineer, Blockchain Expert, Spring Boot, Experienced Developer, 5-star Problem Solver, Front-end Development, Back-end Development, TensorFlow, Blockchain Technology, DApp Development, Java Development, Software Engineer,React Developer, Web Development Expert, Machine Learning Solutions, Blockchain Technology Specialist, Spring Boot Development, Dynamic Website Creation, Robust Problem-solving Skills, Cutting-edge Technology Solutions, User-friendly Website Design, Complex Machine Learning Algorithms, Blockchain Implementation Services, Innovative Technological Solutions, computer engineer, computer scientist"
+          content="Arunangshu Das, Web Development, Problem Solver, Machine Learning Engineer, Blockchain Expert, Spring Boot, Experienced Developer, 5-star Problem Solver, Front-end Development, Back-end Development, TensorFlow, Blockchain Technology, DApp Development, Java Development, Software Engineer,React Developer, Web Development Expert, Machine Learning Solutions, Blockchain Technology Specialist, Spring Boot Development, Dynamic Website Creation, Robust Problem-solving Skills, Cutting-edge Technology Solutions, User-friendly Website Design, Complex Machine Learning Algorithms, Blockchain Implementation Services, Innovative Technological Solutions, computer engineer, computer scientist"
         />
         <meta property="og:title" content="Arunangshu" />
         <meta
           property="og:description"
-          content="Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Experienced in crafting innovative solutions across multiple domains."
+          content="Arunangshu Das, Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Experienced in crafting innovative solutions across multiple domains."
         />
         <meta
           property="og:image"
@@ -85,7 +85,7 @@ const App = () => {
         <meta property="og:title" content="Arunangshu | LinkedIn Profile" />
         <meta
           property="og:description"
-          content="Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Check out Arunangshu Das's profile on LinkedIn."
+          content="Arunangshu Das, Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Check out Arunangshu Das's profile on LinkedIn."
         />
         <meta
           property="og:image"
@@ -104,7 +104,7 @@ const App = () => {
         <meta name="twitter:title" content="Arunangshu" />
         <meta
           name="twitter:description"
-          content="Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Experienced in crafting innovative solutions across multiple domains."
+          content="Arunangshu Das, Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Experienced in crafting innovative solutions across multiple domains."
         />
         <meta
           name="twitter:image"
