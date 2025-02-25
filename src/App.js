@@ -60,9 +60,61 @@ const App = () => {
     document.head.appendChild(script);
   }, []);
 
+
+const FAQSchema = () => {
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where can I find blogs on software development and AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you're looking for practical insights on software development, AI, and industry trends, check out my blog at <a href='https://blog.arunangshudas.com/'>blog.arunangshudas.com</a>. I write about real-world challenges, coding strategies, and things that actually matter to developers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you write in-depth technical articles beyond just blogs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! If you’re looks into technical content that breaks down complex topics in a way that makes sense, head over to <a href='https://article.arunangshudas.com/'>article.arunangshudas.com</a>. It’s where I go beyond the basics and explore software architecture, cloud computing, AI, and more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I reach out to Arunangshu Das for a question or collaboration?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you have a question, an idea, or just want to chat, feel free to reach out via my contact page: <a href='https://contact.arunangshudas.com/'>contact.arunangshudas.com</a>. Always happy to connect!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you have a newsletter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! I send out a newsletter packed with insights, practical coding tips, and industry trends before they go public. If you’d like to get early access, subscribe at <a href='https://newsletter.arunangshudas.com/'>newsletter.arunangshudas.com</a>. No spam, just useful content!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is Arunangshu Das and what do you do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I’m a software developer who writes about adaptive software development, AI, cloud computing, and tech for businesses. I love sharing knowledge through my blogs and articles. If you’d like to know more about my journey, visit <a href='https://www.arunangshudas.com/#about'>arunangshudas.com</a>."
+        }
+      }
+    ]
+  };
+
   return (
     <div>
       <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
+        </script>
         <title>Arunangshu Das</title>
         <meta name="description" content="Arunangshu Das" />
         <link rel="canonical" href="https://arunangshudas.com/index.html" />
