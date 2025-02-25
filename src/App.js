@@ -4,10 +4,8 @@ import About from "./components/container/About/About";
 import Contact from "./components/container/Contact/Contact";
 import Footer from "./components/container/Footer/Footer";
 import Home from "./components/container/Home/Home";
-import Portfolio from "./components/container/Portfolio/Portfolio";
 import Skills from "./components/container/Skills/Skills";
 import Navbar from "./components/Navbar/Navbar";
-import NewsLetter from "./components/container/NewsLetter/NewsLetter";
 import Particle from "./components/Particle";
 import { Helmet } from "react-helmet";
 import { initGA, logPageView } from "./analytics";
@@ -60,8 +58,6 @@ const App = () => {
     document.head.appendChild(script);
   }, []);
 
-
-const FAQSchema = () => {
   const faqData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
