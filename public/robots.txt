@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Allow search engines to crawl everything
+Allow: /
+
+# Specify the location of your sitemap
+Sitemap: https://arunangshudas.com/sitemap.xml

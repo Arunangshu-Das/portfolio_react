@@ -70,7 +70,7 @@ const App = () => {
           name="keywords"
           content="Arunangshu Das, Web Development, Problem Solver, Machine Learning Engineer, Blockchain Expert, Spring Boot, Experienced Developer, 5-star Problem Solver, Front-end Development, Back-end Development, TensorFlow, Blockchain Technology, DApp Development, Java Development, Software Engineer,React Developer, Web Development Expert, Machine Learning Solutions, Blockchain Technology Specialist, Spring Boot Development, Dynamic Website Creation, Robust Problem-solving Skills, Cutting-edge Technology Solutions, User-friendly Website Design, Complex Machine Learning Algorithms, Blockchain Implementation Services, Innovative Technological Solutions, computer engineer, computer scientist"
         />
-        <meta property="og:title" content="Arunangshu" />
+        <meta property="og:title" content="Arunangshu Das" />
         <meta
           property="og:description"
           content="Arunangshu Das, Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Experienced in crafting innovative solutions across multiple domains."
@@ -82,7 +82,7 @@ const App = () => {
         <meta property="og:url" content="https://arunangshudas.com/" />
         <meta property="og:type" content="website" />
 
-        <meta property="og:title" content="Arunangshu | LinkedIn Profile" />
+        <meta property="og:title" content="Arunangshu Das | LinkedIn Profile" />
         <meta
           property="og:description"
           content="Arunangshu Das, Web Developer, Problem Solver, ML Engineer, Blockchain Expert, Spring Boot Expert | Check out Arunangshu Das's profile on LinkedIn."
